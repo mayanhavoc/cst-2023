@@ -1,13 +1,32 @@
+:root {
+    --primary-font: serif;
+    --secondary-font: sans-serif;
+    --large: 3em;
+    --medium: 2em; 
+    --small: 1em;
+    --background-color: #EEEEEE;
+    --font-color: #444;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 html, 
 body {
     margin: 0;
     height: 100%;
     min-height: 100%;
+    background: #EEEEEE;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    line-height: 1.6;
+    color: var(--font-color);
 }
 
 header, 
@@ -15,11 +34,15 @@ footer {
     flex: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 main {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     flex: auto;
-    max-width: 40rem;
+    max-width: 75rem;
     padding: 1rem;
     margin: 2rem auto;
 }
@@ -27,18 +50,43 @@ main {
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 40rem;
+    align-items: center; 
     height: 100%;
+    max-width: 40rem;
+    margin: 5em auto;
+    position: relative;
 }
 
-h1 {
+.heading {
     margin: 0;
     padding: 0;
+    font-size: var(--large);
+}
+
+.sub-heading {
+    font-size: var(--medium);
+}
+
+.paragraph {
+    font-size: var(--small);
 }
 
 .tagline {
     margin: 0;
     padding: 0;
+}
+
+.list {
+    margin: 0 1rem;
+    padding: 1rem 0;
+    list-style: none;
+}
+
+.item {
+    margin-top: 0.5rem;
+}
+
+.item__link {
+    cursor: pointer;
+    text-decoration: none;
 }

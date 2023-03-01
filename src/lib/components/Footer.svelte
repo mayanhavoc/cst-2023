@@ -27,7 +27,7 @@
                 <a href="/about">Acerca de</a>
             </li>
             <li>
-                <a href="/recursos">Recursos</a>
+                <a href="/resources">Recursos</a>
             </li>
             <li>
                 <a href="/contact">Contacto</a>

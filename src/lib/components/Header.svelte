@@ -163,7 +163,7 @@
                     </a>
                 </li>
                 <li class="nav__item">
-                    <a href="/programa" class="nav__link">
+                    <a href="/program" class="nav__link">
                         Programa
                     </a>
                 </li>

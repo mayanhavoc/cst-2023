@@ -43,6 +43,9 @@
                     <a href="/about">Acerca de</a>
                 </li>
                 <li>
+                    <a href="/programa">Programa</a>
+                </li>
+                <li>
                     <a href="/resources">Recursos</a>
                 </li>
                 <li>

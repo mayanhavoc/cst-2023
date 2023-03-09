@@ -2,19 +2,6 @@
     <title>Acerca de  - Cardano Sin Tecnicismos 2023</title>
 </svelte:head>
 
-<style>
-    .about {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        max-width: 75rem;
-        margin: 0 auto;
-        position: relative;
-    }
-</style>
-
 <div class="container">
     <h1 class="heading">Acerca del programa</h1>
     <p class="paragraph">Cardano Sin Tecnicismos busca facilitar espacios en donde usamos <span class="italic">tAda</span> del Grifo testnet para descubrir la multitud de diferentes posibles usos del ecosistema Web3 de Cardano.</p>

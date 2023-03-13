@@ -3,6 +3,9 @@
       padding: 0.5em 0;
       background: var(--background-color);
       position: fixed;
+      font-family: var(--secondary-font);
+      font-weight: 900;
+      letter-spacing: 1.1px;
       text-align: center;
       top: 0;
       left: 0;

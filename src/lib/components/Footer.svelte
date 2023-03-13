@@ -35,7 +35,7 @@
 </style>
 
 <footer>
-    <div class="footer__container row">
+    <!-- <div class="footer__container row">
         <a href="/">Inicio</a>
         <nav>
             <ul>
@@ -53,5 +53,5 @@
                 </li>
             </ul>
         </nav>
-    </div>
+    </div> -->
 </footer>

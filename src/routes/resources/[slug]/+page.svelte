@@ -34,12 +34,11 @@
                 {#each data.categories as category }
                     <li class="item">
                         <a class="item__link" href="/resources/category/{category}">
-                            {category}
+                            <p class="paragraph">{category}</p>
                         </a>
                     </li>
                 {/each }
             </ul>
-        
         {/if}
     </article>
 </div>

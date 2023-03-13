@@ -8,6 +8,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
         height: 100%;
         max-width: 75rem;
         margin: 0 auto;
@@ -16,5 +17,5 @@
 </style>
 
 <div class="hero">
-    <h1 class="heading">Cardano Sin Tecnicismos 2023</h1>
+    <h1 class="heading">Cardano Sin Tecnicismos</h1>
 </div>

@@ -28,7 +28,7 @@
         <h1 class="heading">{data.title}</h1>
         <p class="paragraph">Fecha de publicación: {data.date}</p>
         <svelte:component this={data.content} />
-        <!-- {#if data.categories.length}
+        {#if data.categories.length}
             <h2 class="sub-heading">Categorías</h2>
             <ul class="list">
                 {#each data.categories as category }
@@ -40,6 +40,6 @@
                 {/each }
             </ul>
         
-        {/if} -->
+        {/if}
     </article>
 </div>

@@ -151,7 +151,7 @@
             <span class="hamburger"></span>
         </button>
         <a href="/">
-            <img src="./cst--logo.png" alt="Logo Cardano Sin Tecnicismos" class="nav--logo">
+            <img src="cst-logo.png" alt="Logo Cardano Sin Tecnicismos" class="nav--logo">
         </a>
         <nav class="nav">
             <ul class="nav__list">
